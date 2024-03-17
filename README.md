@@ -1,10 +1,19 @@
-# js-lab-88
-### Lab88 Array: การคืนค่า Array
-ให้เขียนฟังก์ชัน squareArr(arr) เพื่อคืนค่า Array ที่มี element เป็นเลขยกกำลังสองของแต่ละ element ใน arr
-
-ตัวอย่างผลลัพธ์
+# js-lab-89
+### Lab89 Array: การสร้างตัวแปรจากตัวแปร1
+จงสร้างตัวแปร summary โดยใช้ค่าจากตัวแปร sales
+netPrice = price x discount (ถ้าไม่มี discount ให้ถือว่า netPrice = price)
 
 ```JavaScript
-const arr = [2, 3, 5, 7, 11];
-squareArr(arr); // [4, 9, 25, 49, 121]
+const sales = [
+  { price: 1000, discount: 0.1},
+  { price: 500, discount: 0.05},
+  { price: 100}
+];
+
+console.log(summary)
+// const summary = [
+//   {netPrice: 900},
+//   {netPrice: 475},
+//   {netPrice: 100}
+// ];
 ```
